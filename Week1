@@ -1,0 +1,15 @@
+(base) quanah:$ cd /lustre/scratch/jenjense/200mammals
+-bash: cd: /lustre/scratch/jenjense/200mammals: No such file or directory
+(base) quanah:$ cd /lustre/scratch/jenjense
+(base) quanah:/lustre/scratch/jenjense$ cd 200mammals
+-bash: cd: 200mammals: No such file or directory
+(base) quanah:/lustre/scratch/jenjense$ cd 200Mammals
+(base) quanah:/lustre/scratch/jenjense/200Mammals$ ls | wc -l
+93
+(base) quanah:/lustre/scratch/jenjense/200Mammals$ cd ../ cd ../ cd bak43224
+(base) quanah:/lustre/scratch/jenjense$ cd ../
+(base) quanah:/lustre/scratch$ cd bak43224
+(base) quanah:/lustre/scratch/bak43224$ mkdir testing
+(base) quanah:/lustre/scratch/bak43224$ ls
+L1find  Python_homework  testing
+(base) quanah:/lustre/scratch/bak43224$
