@@ -13,5 +13,5 @@ for element in list1:
                 newlist.append(element)
 print(newlist)
 for gene in newlist:
-        print len(gene)
+        print(len(gene))
 
